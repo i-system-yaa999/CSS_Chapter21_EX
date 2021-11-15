@@ -1,0 +1,55 @@
+.menubar--parent{
+  width: 100%;
+  color: #00277E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company{
+  text-decoration: none;
+  color: #00277E;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left:15px ;
+}
+
+.guidebar--parent{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.guidebar--chilled{
+  text-decoration: none;
+  color: #00277E;
+  padding-left: 20px;
+}
+
+.contents--parent{
+  position: relative;
+}
+.contents--chilled{
+  position: absolute;
+  top: calc(30vw);
+  margin-left: -10px;
+}
+.image{
+  position: absolute;
+  top: 10vh;
+  left: 50%;
+  width: 50vw;
+}
+
+
+.slogan{
+  font-size: 40px;
+  line-height: 30px;
+  margin: 0;
+}
+.tile{
+  width: 70vw;
+  /* height: 15vh; */
+  height: calc(20vw);
+  max-height: 15vh;
+  background-color: #00277E;
+}
